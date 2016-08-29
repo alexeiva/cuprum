@@ -1,0 +1,25 @@
+# COMMENTS
+# TODO 2012-03-30 DC: The Reg ttf is 100k while subsets are a lot less - why?
+# fontforge -lang=ff -script menusubset-cuprum.ff Cuprum-Regular.ttf;
+# mv Cuprum-Regular.{ttf.menu.ttf,menu};
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Cuprum-Regular.menu; 
+# cd ~/googlefontdirectory/cuprum/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext; \
+# cd ~/googlefontdirectory/; \
+# for family in cuprum; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin; do \
+#            echo subset.py --null --nmr --roundtrip --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/cuprum/; \
+# rename s/cyrillic\\+latin/cyrillic/g *; 
+# rename s/cyrillic-ext\\+latin/cyrillic-ext/g *; 
