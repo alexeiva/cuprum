@@ -30,6 +30,14 @@ alignmentZones = (
 ascender = 700;
 capHeight = 700;
 descender = -200;
+guideLines = (
+{
+position = "{50, 560}";
+},
+{
+position = "{103, 690}";
+}
+);
 horizontalStems = (
 60,
 55,
@@ -59,6 +67,14 @@ alignmentZones = (
 ascender = 700;
 capHeight = 700;
 descender = -200;
+guideLines = (
+{
+position = "{58, 560}";
+},
+{
+position = "{113, 690}";
+}
+);
 id = "2A85124F-80FE-40EA-AF86-869CC9CBC980";
 weight = Bold;
 xHeight = 500;
@@ -50231,23 +50247,13 @@ unicode = 0020;
 {
 color = 4;
 glyphname = nbspace;
-lastChange = "2016-09-02 12:49:06 +0000";
+lastChange = "2016-09-02 12:51:35 +0000";
 layers = (
 {
-components = (
-{
-name = space;
-}
-);
 layerId = UUID0;
 width = 250;
 },
 {
-components = (
-{
-name = space;
-}
-);
 layerId = "2A85124F-80FE-40EA-AF86-869CC9CBC980";
 width = 250;
 }
@@ -56459,7 +56465,7 @@ unicode = 0303;
 {
 color = 4;
 glyphname = macroncomb;
-lastChange = "2016-09-02 12:49:06 +0000";
+lastChange = "2016-09-02 13:08:38 +0000";
 layers = (
 {
 anchors = (
@@ -56469,12 +56475,13 @@ position = "{135, 500}";
 },
 {
 name = top;
-position = "{135, 700}";
+position = "{135, 670}";
 }
 );
 components = (
 {
 name = macron;
+transform = "{1, 0, 0, 1, 0, -30}";
 }
 );
 hints = (
@@ -56494,12 +56501,13 @@ position = "{140, 500}";
 },
 {
 name = top;
-position = "{140, 700}";
+position = "{140, 670}";
 }
 );
 components = (
 {
 name = macron;
+transform = "{1, 0, 0, 1, 0, -30}";
 }
 );
 hints = (
@@ -56873,7 +56881,7 @@ unicode = 02BC;
 {
 color = 4;
 glyphname = acute;
-lastChange = "2016-09-02 12:49:06 +0000";
+lastChange = "2016-09-02 13:08:05 +0000";
 layers = (
 {
 hints = (
@@ -57330,16 +57338,10 @@ unicode = 02D9;
 {
 color = 4;
 glyphname = grave;
-lastChange = "2016-09-02 12:49:06 +0000";
+lastChange = "2016-09-02 13:11:04 +0000";
 layers = (
 {
-hints = (
-{
-horizontal = 1;
-place = "{540, 160}";
-}
-);
-layerId = UUID0;
+background = {
 paths = (
 {
 closed = 1;
@@ -57351,9 +57353,41 @@ nodes = (
 );
 }
 );
+};
+hints = (
+{
+horizontal = 1;
+place = "{540, 160}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"145 560 LINE",
+"117 690 LINE",
+"22 690 LINE",
+"85 560 LINE"
+);
+}
+);
 width = 170;
 },
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"139 690 LINE",
+"24 690 LINE",
+"99 560 LINE",
+"174 560 LINE"
+);
+}
+);
+};
 hints = (
 {
 horizontal = 1;
@@ -57365,10 +57399,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"180 530 LINE",
-"145 700 LINE",
-"20 700 LINE",
-"100 530 LINE"
+"174 560 LINE",
+"139 690 LINE",
+"24 690 LINE",
+"99 560 LINE"
 );
 }
 );
