@@ -13,6 +13,15 @@ value = "Cuprum is a trademark of Jovanny Lemonad.";
 {
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = vendorID;
+value = UKWN;
 }
 );
 date = "2016-09-02 12:49:20 +0000";
@@ -29,6 +38,40 @@ alignmentZones = (
 );
 ascender = 700;
 capHeight = 700;
+customParameters = (
+{
+name = typoAscender;
+value = 900;
+},
+{
+name = typoDescender;
+value = -320;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 900;
+},
+{
+name = winDescent;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 900;
+},
+{
+name = hheaDescender;
+value = -320;
+}
+);
 descender = -200;
 guideLines = (
 {
@@ -66,6 +109,40 @@ alignmentZones = (
 );
 ascender = 700;
 capHeight = 700;
+customParameters = (
+{
+name = typoAscender;
+value = 900;
+},
+{
+name = typoDescender;
+value = -320;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 900;
+},
+{
+name = winDescent;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 900;
+},
+{
+name = hheaDescender;
+value = -320;
+}
+);
 descender = -200;
 guideLines = (
 {
@@ -75,7 +152,20 @@ position = "{58, 560}";
 position = "{113, 690}";
 }
 );
+horizontalStems = (
+70,
+65,
+75,
+80,
+120
+);
 id = "2A85124F-80FE-40EA-AF86-869CC9CBC980";
+verticalStems = (
+120,
+85,
+100,
+110
+);
 weight = Bold;
 xHeight = 500;
 }
@@ -46630,6 +46720,226 @@ rightKerningGroup = threesuperior;
 unicode = 00B3;
 },
 {
+glyphname = foursuperior;
+lastChange = "2016-09-02 14:10:07 +0000";
+layers = (
+{
+hints = (
+{
+place = "{105, 70}";
+},
+{
+place = "{410, 65}";
+},
+{
+horizontal = 1;
+place = "{65, 50}";
+},
+{
+horizontal = 1;
+place = "{650, 50}";
+},
+{
+horizontal = 1;
+place = "{65, 235}";
+},
+{
+horizontal = 1;
+place = "{0, 21}";
+target = up;
+type = BottomGhost;
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"100 515 LINE",
+"175 613 LINE",
+"175 515 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"30 465 LINE",
+"175 465 LINE",
+"175 400 LINE",
+"240 400 LINE",
+"240 465 LINE",
+"270 465 LINE",
+"270 515 LINE",
+"240 515 LINE",
+"240 700 LINE",
+"170 700 LINE",
+"30 515 LINE"
+);
+}
+);
+width = 310;
+},
+{
+hints = (
+{
+place = "{40, 210}";
+},
+{
+place = "{75, 175}";
+},
+{
+place = "{155, 95}";
+},
+{
+place = "{440, 85}";
+},
+{
+horizontal = 1;
+place = "{55, 60}";
+},
+{
+horizontal = 1;
+place = "{395, 60}";
+},
+{
+horizontal = 1;
+place = "{525, 60}";
+},
+{
+horizontal = 1;
+place = "{645, 60}";
+},
+{
+horizontal = 1;
+place = "{0, 21}";
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = "{700, -20}";
+target = down;
+type = TopGhost;
+}
+);
+layerId = "2A85124F-80FE-40EA-AF86-869CC9CBC980";
+paths = (
+{
+closed = 1;
+nodes = (
+"95 515 LINE",
+"160 600 LINE",
+"160 515 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"20 455 LINE",
+"160 455 LINE",
+"160 400 LINE",
+"245 400 LINE",
+"245 455 LINE",
+"270 455 LINE",
+"270 515 LINE",
+"245 515 LINE",
+"245 700 LINE",
+"160 700 LINE",
+"20 515 LINE"
+);
+}
+);
+width = 320;
+}
+);
+unicode = 2074;
+},
+{
+glyphname = fraction;
+lastChange = "2016-09-02 14:08:36 +0000";
+layers = (
+{
+hints = (
+{
+place = "{120, 85}";
+},
+{
+place = "{350, 210}";
+},
+{
+place = "{475, 85}";
+},
+{
+horizontal = 1;
+place = "{0, 60}";
+},
+{
+horizontal = 1;
+place = "{245, 60}";
+},
+{
+horizontal = 1;
+place = "{700, -20}";
+target = down;
+type = TopGhost;
+}
+);
+layerId = "2A85124F-80FE-40EA-AF86-869CC9CBC980";
+paths = (
+{
+closed = 1;
+nodes = (
+"340 700 LINE",
+"-50 0 LINE",
+"60 0 LINE",
+"450 700 LINE"
+);
+}
+);
+width = 400;
+},
+{
+hints = (
+{
+place = "{115, 70}";
+},
+{
+place = "{335, 195}";
+},
+{
+place = "{465, 65}";
+},
+{
+horizontal = 1;
+place = "{0, 50}";
+},
+{
+horizontal = 1;
+place = "{255, 50}";
+},
+{
+horizontal = 1;
+place = "{650, 50}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"340 700 LINE",
+"-50 0 LINE",
+"30 0 LINE",
+"420 700 LINE"
+);
+}
+);
+width = 370;
+}
+);
+unicode = 2044;
+},
+{
 color = 4;
 glyphname = onehalf;
 lastChange = "2016-09-02 12:49:06 +0000";
@@ -52194,6 +52504,32 @@ rightKerningGroup = Y;
 unicode = 00A5;
 },
 {
+glyphname = divisionslash;
+lastChange = "2016-09-02 14:08:46 +0000";
+layers = (
+{
+components = (
+{
+name = slash;
+}
+);
+layerId = "2A85124F-80FE-40EA-AF86-869CC9CBC980";
+width = 420;
+},
+{
+components = (
+{
+name = slash;
+}
+);
+layerId = UUID0;
+width = 390;
+}
+);
+rightMetricsKey = slash;
+unicode = 2215;
+},
+{
 color = 4;
 glyphname = plus;
 lastChange = "2016-09-02 12:49:06 +0000";
@@ -57560,6 +57896,173 @@ rightKerningGroup = ogonek;
 unicode = 02DB;
 },
 {
+glyphname = ring;
+lastChange = "2016-09-02 14:07:41 +0000";
+layers = (
+{
+hints = (
+{
+place = "{45, 90}";
+},
+{
+place = "{145, 50}";
+},
+{
+place = "{265, 50}";
+},
+{
+place = "{295, 90}";
+},
+{
+horizontal = 1;
+place = "{-10, 60}";
+},
+{
+horizontal = 1;
+place = "{245, 60}";
+},
+{
+horizontal = 1;
+place = "{450, 60}";
+},
+{
+horizontal = 1;
+place = "{540, 45}";
+},
+{
+horizontal = 1;
+place = "{655, 45}";
+},
+{
+horizontal = 1;
+place = "{0, 21}";
+target = up;
+type = BottomGhost;
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"170 595 OFFCURVE",
+"155 585 OFFCURVE",
+"135 585 CURVE SMOOTH",
+"115 585 OFFCURVE",
+"100 595 OFFCURVE",
+"100 620 CURVE SMOOTH",
+"100 645 OFFCURVE",
+"115 655 OFFCURVE",
+"135 655 CURVE SMOOTH",
+"155 655 OFFCURVE",
+"170 645 OFFCURVE",
+"170 620 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"220 670 OFFCURVE",
+"185 700 OFFCURVE",
+"135 700 CURVE SMOOTH",
+"85 700 OFFCURVE",
+"50 670 OFFCURVE",
+"50 620 CURVE SMOOTH",
+"50 570 OFFCURVE",
+"85 540 OFFCURVE",
+"135 540 CURVE SMOOTH",
+"185 540 OFFCURVE",
+"220 570 OFFCURVE",
+"220 620 CURVE SMOOTH"
+);
+}
+);
+width = 270;
+},
+{
+hints = (
+{
+place = "{40, 120}";
+},
+{
+place = "{145, 65}";
+},
+{
+place = "{270, 65}";
+},
+{
+place = "{290, 120}";
+},
+{
+horizontal = 1;
+place = "{-10, 70}";
+},
+{
+horizontal = 1;
+place = "{240, 70}";
+},
+{
+horizontal = 1;
+place = "{440, 70}";
+},
+{
+horizontal = 1;
+place = "{535, 55}";
+},
+{
+horizontal = 1;
+place = "{650, 55}";
+},
+{
+horizontal = 1;
+place = "{0, 21}";
+target = up;
+type = BottomGhost;
+}
+);
+layerId = "2A85124F-80FE-40EA-AF86-869CC9CBC980";
+paths = (
+{
+closed = 1;
+nodes = (
+"175 600 OFFCURVE",
+"160 590 OFFCURVE",
+"145 590 CURVE SMOOTH",
+"130 590 OFFCURVE",
+"115 600 OFFCURVE",
+"115 620 CURVE SMOOTH",
+"115 640 OFFCURVE",
+"130 650 OFFCURVE",
+"145 650 CURVE SMOOTH",
+"160 650 OFFCURVE",
+"175 640 OFFCURVE",
+"175 620 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"240 670 OFFCURVE",
+"200 705 OFFCURVE",
+"145 705 CURVE SMOOTH",
+"90 705 OFFCURVE",
+"50 670 OFFCURVE",
+"50 620 CURVE SMOOTH",
+"50 570 OFFCURVE",
+"90 535 OFFCURVE",
+"145 535 CURVE SMOOTH",
+"200 535 OFFCURVE",
+"240 570 OFFCURVE",
+"240 620 CURVE SMOOTH"
+);
+}
+);
+width = 290;
+}
+);
+unicode = 02DA;
+},
+{
 color = 4;
 glyphname = tilde;
 lastChange = "2016-09-02 12:49:06 +0000";
@@ -58349,6 +58852,40 @@ rightKerningGroup = "verticalbar-cy.case";
 );
 instances = (
 {
+customParameters = (
+{
+name = typoAscender;
+value = 900;
+},
+{
+name = typoDescender;
+value = -320;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 900;
+},
+{
+name = winDescent;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 900;
+},
+{
+name = hheaDescender;
+value = -320;
+}
+);
 interpolationWeight = 0;
 instanceInterpolations = {
 UUID0 = 1;
@@ -58357,6 +58894,40 @@ name = Regular;
 weightClass = Normal;
 },
 {
+customParameters = (
+{
+name = typoAscender;
+value = 900;
+},
+{
+name = typoDescender;
+value = -320;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 900;
+},
+{
+name = winDescent;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 900;
+},
+{
+name = hheaDescender;
+value = -320;
+}
+);
 instanceInterpolations = {
 "2A85124F-80FE-40EA-AF86-869CC9CBC980" = 1;
 };
