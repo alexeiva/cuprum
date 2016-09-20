@@ -62841,7 +62841,7 @@ instances = (
 customParameters = (
 {
 name = typoAscender;
-value = 900;
+value = 1087;
 },
 {
 name = typoDescender;
@@ -62857,15 +62857,15 @@ value = 0;
 },
 {
 name = winAscent;
-value = 900;
+value = 1087;
 },
 {
 name = winDescent;
-value = 0;
+value = 290;
 },
 {
 name = hheaAscender;
-value = 900;
+value = 1087;
 },
 {
 name = hheaDescender;
@@ -62882,12 +62882,20 @@ weightClass = Normal;
 {
 customParameters = (
 {
-name = typoAscender;
-value = 900;
+name = winDescent;
+value = 290;
 },
 {
-name = typoDescender;
-value = -320;
+name = typoAscender;
+value = 1087;
+},
+{
+name = winAscent;
+value = 1087;
+},
+{
+name = hheaAscender;
+value = 1087;
 },
 {
 name = typoLineGap;
@@ -62898,16 +62906,8 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 900;
-},
-{
-name = winDescent;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 900;
+name = typoDescender;
+value = -320;
 },
 {
 name = hheaDescender;

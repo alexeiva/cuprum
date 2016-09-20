@@ -1,5 +1,5 @@
 {
-.appVersion = "913";
+.appVersion = "919";
 classes = (
 {
 automatic = 1;
@@ -58237,12 +58237,20 @@ instances = (
 {
 customParameters = (
 {
-name = typoAscender;
-value = 900;
+name = winDescent;
+value = 290;
 },
 {
-name = typoDescender;
-value = -320;
+name = typoAscender;
+value = 1087;
+},
+{
+name = winAscent;
+value = 1087;
+},
+{
+name = hheaAscender;
+value = 1087;
 },
 {
 name = typoLineGap;
@@ -58253,16 +58261,8 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 900;
-},
-{
-name = winDescent;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 900;
+name = typoDescender;
+value = -320;
 },
 {
 name = hheaDescender;
@@ -58280,12 +58280,20 @@ weightClass = Normal;
 {
 customParameters = (
 {
-name = typoAscender;
-value = 900;
+name = winDescent;
+value = 290;
 },
 {
-name = typoDescender;
-value = -320;
+name = typoAscender;
+value = 1087;
+},
+{
+name = winAscent;
+value = 1087;
+},
+{
+name = hheaAscender;
+value = 1087;
 },
 {
 name = typoLineGap;
@@ -58296,16 +58304,8 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 900;
-},
-{
-name = winDescent;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 900;
+name = typoDescender;
+value = -320;
 },
 {
 name = hheaDescender;
