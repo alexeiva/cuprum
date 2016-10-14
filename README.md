@@ -7,7 +7,6 @@ Cuprum was created in 2006 based on the works Miles Newlyn. Cuprum is a narrow g
 
 ### version 2.000 update
 
-
 * Expanded glyph set to GF Cyrillic Plus
 
 * Ported sources files to Glyphs
@@ -15,6 +14,8 @@ Cuprum was created in 2006 based on the works Miles Newlyn. Cuprum is a narrow g
 * Added kerning classes, compressed and optimised kerning
 
 * Added glyphs ˚⁴∕⁄ required for Google Latin support
+
+* Added Vietnamese support by Nhung Nguyen @crystaltype
 
 
 ### Copyright
