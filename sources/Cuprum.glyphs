@@ -1,6 +1,6 @@
 {
-.appVersion = "926";
-copyright = "Copyright (c) 2006-2012 by Jovanny Lemonad (jovanny.ru), with Reserved Font Name \"Cuprum\"";
+.appVersion = "948";
+copyright = "Copyright 2010 The Cuprum Project Authors (lemonad@jovanny.ru), with Reserved Font Name \"Cuprum\".";
 customParameters = (
 {
 name = licenseURL;
@@ -18,10 +18,6 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 name = fsType;
 value = (
 );
-},
-{
-name = vendorID;
-value = UKWN;
 },
 {
 name = "Use Typo Metrics";

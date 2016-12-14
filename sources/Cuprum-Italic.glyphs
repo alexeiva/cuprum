@@ -1,5 +1,5 @@
 {
-.appVersion = "926";
+.appVersion = "948";
 classes = (
 {
 automatic = 1;
@@ -7,7 +7,7 @@ code = "A Aacute Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B 
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2006-2012 by Jovanny Lemonad (jovanny.ru), with Reserved Font Name \"Cuprum\"";
+copyright = "Copyright 2010 The Cuprum Project Authors (lemonad@jovanny.ru), with Reserved Font Name \"Cuprum\".";
 customParameters = (
 {
 name = licenseURL;
@@ -25,10 +25,6 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 name = fsType;
 value = (
 );
-},
-{
-name = vendorID;
-value = UKWN;
 },
 {
 name = "Use Typo Metrics";
