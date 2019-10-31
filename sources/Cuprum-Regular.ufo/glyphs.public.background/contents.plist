@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Ghemiddlehook-cy</key>
+    <string>G_hemiddlehook-cy.glif</string>
+    <key>Schwa-cy</key>
+    <string>S_chwa-cy.glif</string>
+    <key>grave</key>
+    <string>grave.glif</string>
+    <key>ruble</key>
+    <string>ruble.glif</string>
+    <key>verticalbar-cy</key>
+    <string>verticalbar-cy.glif</string>
+    <key>verticalbar-cy.case</key>
+    <string>verticalbar-cy.case.glif</string>
+    <key>zedescender-cy</key>
+    <string>zedescender-cy.glif</string>
+  </dict>
+</plist>

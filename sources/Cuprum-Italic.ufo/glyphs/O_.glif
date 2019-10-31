@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="O" format="2">
+  <advance width="530"/>
+  <unicode hex="004F"/>
+  <anchor x="269" y="0" name="bottom"/>
+  <anchor x="283" y="350" name="center"/>
+  <anchor x="433" y="10" name="ogonek"/>
+  <anchor x="390" y="700" name="top"/>
+  <anchor x="99" y="700" name="topleft"/>
+  <anchor x="539" y="700" name="topright"/>
+  <outline>
+    <contour>
+      <point x="263" y="-10" type="curve" smooth="yes"/>
+      <point x="398" y="-10"/>
+      <point x="492" y="70"/>
+      <point x="541" y="350" type="curve" smooth="yes"/>
+      <point x="591" y="630"/>
+      <point x="525" y="710"/>
+      <point x="390" y="710" type="curve" smooth="yes"/>
+      <point x="255" y="710"/>
+      <point x="161" y="630"/>
+      <point x="111" y="350" type="curve" smooth="yes"/>
+      <point x="62" y="70"/>
+      <point x="128" y="-10"/>
+    </contour>
+    <contour>
+      <point x="273" y="50" type="curve" smooth="yes"/>
+      <point x="208" y="50"/>
+      <point x="159" y="110"/>
+      <point x="201" y="350" type="curve" smooth="yes"/>
+      <point x="244" y="590"/>
+      <point x="314" y="650"/>
+      <point x="379" y="650" type="curve" smooth="yes"/>
+      <point x="444" y="650"/>
+      <point x="494" y="590"/>
+      <point x="451" y="350" type="curve" smooth="yes"/>
+      <point x="409" y="110"/>
+      <point x="338" y="50"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-10</integer>
+            <integer>60</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>650</integer>
+            <integer>60</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Obarred-cy" format="2">
+  <advance width="530"/>
+  <unicode hex="04E8"/>
+  <outline>
+    <component base="O-cy"/>
+    <component base="strokeshortcomb" xOffset="100" yOffset="-228"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

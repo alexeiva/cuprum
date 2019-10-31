@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zcaron" format="2">
+  <advance width="405"/>
+  <unicode hex="017D"/>
+  <outline>
+    <contour>
+      <point x="20" y="0" type="line"/>
+      <point x="380" y="0" type="line"/>
+      <point x="392" y="70" type="line"/>
+      <point x="137" y="70" type="line"/>
+      <point x="496" y="635" type="line"/>
+      <point x="508" y="700" type="line"/>
+      <point x="148" y="700" type="line"/>
+      <point x="136" y="630" type="line"/>
+      <point x="391" y="630" type="line"/>
+      <point x="31" y="65" type="line"/>
+    </contour>
+    <contour>
+      <point x="302" y="760" type="line"/>
+      <point x="397" y="760" type="line"/>
+      <point x="494" y="890" type="line"/>
+      <point x="434" y="890" type="line"/>
+      <point x="358" y="816" type="line"/>
+      <point x="309" y="890" type="line"/>
+      <point x="249" y="890" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>0</integer>
+            <integer>70</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>630</integer>
+            <integer>70</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>760</integer>
+            <integer>130</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

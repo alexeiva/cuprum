@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon" format="2">
+  <advance width="170"/>
+  <unicode hex="003A"/>
+  <outline>
+    <contour>
+      <point x="108" y="390" type="line"/>
+      <point x="198" y="390" type="line"/>
+      <point x="218" y="500" type="line"/>
+      <point x="128" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="39" y="-5" type="line"/>
+      <point x="129" y="-5" type="line"/>
+      <point x="148" y="105" type="line"/>
+      <point x="58" y="105" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-5</integer>
+            <integer>110</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>390</integer>
+            <integer>110</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
