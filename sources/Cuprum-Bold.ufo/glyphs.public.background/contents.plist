@@ -2,12 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>Ccedilla</key>
+    <string>C_cedilla.glif</string>
     <key>Ghemiddlehook-cy</key>
     <string>G_hemiddlehook-cy.glif</string>
     <key>Izhitsa-cy</key>
     <string>I_zhitsa-cy.glif</string>
     <key>Schwa-cy</key>
     <string>S_chwa-cy.glif</string>
+    <key>Y</key>
+    <string>Y_.glif</string>
+    <key>Yacute</key>
+    <string>Y_acute.glif</string>
     <key>ghemiddlehook-cy</key>
     <string>ghemiddlehook-cy.glif</string>
     <key>grave</key>
@@ -18,5 +24,7 @@
     <string>verticalbar-cy.case.glif</string>
     <key>yat-cy</key>
     <string>yat-cy.glif</string>
+    <key>yen</key>
+    <string>yen.glif</string>
   </dict>
 </plist>

@@ -4,12 +4,20 @@
   <dict>
     <key>Ghemiddlehook-cy</key>
     <string>G_hemiddlehook-cy.glif</string>
+    <key>Idieresis</key>
+    <string>I_dieresis.glif</string>
+    <key>Igrave</key>
+    <string>I_grave.glif</string>
     <key>Schwa-cy</key>
     <string>S_chwa-cy.glif</string>
+    <key>ae</key>
+    <string>ae.glif</string>
     <key>grave</key>
     <string>grave.glif</string>
     <key>ruble</key>
     <string>ruble.glif</string>
+    <key>scedilla</key>
+    <string>scedilla.glif</string>
     <key>verticalbar-cy</key>
     <string>verticalbar-cy.glif</string>
     <key>verticalbar-cy.case</key>
