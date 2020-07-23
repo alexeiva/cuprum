@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Esdescender-cy</key>
+    <string>E_sdescender-cy.glif</string>
+    <key>Ghemiddlehook-cy</key>
+    <string>G_hemiddlehook-cy.glif</string>
+    <key>Izhitsa-cy</key>
+    <string>I_zhitsa-cy.glif</string>
+    <key>Obarred-cy</key>
+    <string>O_barred-cy.glif</string>
+    <key>Schwa-cy</key>
+    <string>S_chwa-cy.glif</string>
+    <key>Ustrait-cy</key>
+    <string>U_strait-cy.glif</string>
+    <key>Ustraitstroke-cy</key>
+    <string>U_straitstroke-cy.glif</string>
+    <key>Y</key>
+    <string>Y_.glif</string>
+    <key>Yacute</key>
+    <string>Y_acute.glif</string>
+    <key>Zedescender-cy</key>
+    <string>Z_edescender-cy.glif</string>
+    <key>ghemiddlehook-cy</key>
+    <string>ghemiddlehook-cy.glif</string>
+    <key>grave</key>
+    <string>grave.glif</string>
+    <key>obarred-cy</key>
+    <string>obarred-cy.glif</string>
+    <key>verticalbar-cy</key>
+    <string>verticalbar-cy.glif</string>
+    <key>verticalbar-cy.case</key>
+    <string>verticalbar-cy.case.glif</string>
+    <key>yat-cy</key>
+    <string>yat-cy.glif</string>
+    <key>yen</key>
+    <string>yen.glif</string>
+    <key>zedescender-cy</key>
+    <string>zedescender-cy.glif</string>
+  </dict>
+</plist>
