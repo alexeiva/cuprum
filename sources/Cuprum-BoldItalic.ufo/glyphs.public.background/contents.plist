@@ -8,6 +8,8 @@
     <string>G_hemiddlehook-cy.glif</string>
     <key>Izhitsa-cy</key>
     <string>I_zhitsa-cy.glif</string>
+    <key>Ntilde</key>
+    <string>N_tilde.glif</string>
     <key>Obarred-cy</key>
     <string>O_barred-cy.glif</string>
     <key>Schwa-cy</key>
@@ -22,10 +24,14 @@
     <string>Y_acute.glif</string>
     <key>Zedescender-cy</key>
     <string>Z_edescender-cy.glif</string>
+    <key>asciitilde</key>
+    <string>asciitilde.glif</string>
     <key>ghemiddlehook-cy</key>
     <string>ghemiddlehook-cy.glif</string>
     <key>grave</key>
     <string>grave.glif</string>
+    <key>ntilde</key>
+    <string>ntilde.glif</string>
     <key>obarred-cy</key>
     <string>obarred-cy.glif</string>
     <key>verticalbar-cy</key>
