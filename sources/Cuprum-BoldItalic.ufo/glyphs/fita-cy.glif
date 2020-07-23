@@ -35,12 +35,12 @@
     </contour>
     <contour>
       <point x="122" y="213" type="line"/>
-      <point x="136" y="287" type="line"/>
-      <point x="446" y="287" type="line"/>
-      <point x="436" y="233" type="line"/>
-      <point x="404" y="223"/>
+      <point x="317" y="213" type="line"/>
       <point x="352" y="213"/>
-      <point x="317" y="213" type="curve"/>
+      <point x="404" y="223"/>
+      <point x="436" y="233" type="curve"/>
+      <point x="446" y="287" type="line"/>
+      <point x="136" y="287" type="line"/>
     </contour>
   </outline>
   <lib>
