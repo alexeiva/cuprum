@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Edotaccent" format="2">
+  <advance width="450"/>
+  <unicode hex="0116"/>
+  <outline>
+    <contour>
+      <point x="70" y="0" type="line"/>
+      <point x="410" y="0" type="line"/>
+      <point x="422" y="70" type="line"/>
+      <point x="172" y="70" type="line"/>
+      <point x="218" y="330" type="line"/>
+      <point x="438" y="330" type="line"/>
+      <point x="450" y="400" type="line"/>
+      <point x="230" y="400" type="line"/>
+      <point x="271" y="630" type="line"/>
+      <point x="521" y="630" type="line"/>
+      <point x="533" y="700" type="line"/>
+      <point x="193" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="335" y="770" type="line"/>
+      <point x="425" y="770" type="line"/>
+      <point x="445" y="880" type="line"/>
+      <point x="355" y="880" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>0</integer>
+            <integer>70</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>330</integer>
+            <integer>70</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>630</integer>
+            <integer>70</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>770</integer>
+            <integer>110</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

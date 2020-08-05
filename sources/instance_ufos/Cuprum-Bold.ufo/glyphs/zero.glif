@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero" format="2">
+  <advance width="530"/>
+  <unicode hex="0030"/>
+  <outline>
+    <contour>
+      <point x="265" y="-10" type="curve"/>
+      <point x="395" y="-10"/>
+      <point x="485" y="80"/>
+      <point x="485" y="350" type="curve"/>
+      <point x="485" y="620"/>
+      <point x="395" y="710"/>
+      <point x="265" y="710" type="curve" smooth="yes"/>
+      <point x="135" y="710"/>
+      <point x="45" y="620"/>
+      <point x="45" y="350" type="curve" smooth="yes"/>
+      <point x="45" y="80"/>
+      <point x="135" y="-10"/>
+    </contour>
+    <contour>
+      <point x="265" y="60" type="curve"/>
+      <point x="220" y="60"/>
+      <point x="165" y="115"/>
+      <point x="165" y="350" type="curve"/>
+      <point x="165" y="585"/>
+      <point x="220" y="640"/>
+      <point x="265" y="640" type="curve" smooth="yes"/>
+      <point x="310" y="640"/>
+      <point x="365" y="585"/>
+      <point x="365" y="350" type="curve"/>
+      <point x="365" y="115"/>
+      <point x="310" y="60"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>45</integer>
+            <integer>120</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>365</integer>
+            <integer>120</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-10</integer>
+            <integer>70</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>640</integer>
+            <integer>70</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

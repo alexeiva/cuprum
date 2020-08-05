@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresis" format="2">
+  <advance width="310"/>
+  <unicode hex="00A8"/>
+  <outline>
+    <contour>
+      <point x="280" y="570" type="line"/>
+      <point x="390" y="570" type="line"/>
+      <point x="411" y="690" type="line"/>
+      <point x="301" y="690" type="line"/>
+    </contour>
+    <contour>
+      <point x="120" y="570" type="line"/>
+      <point x="230" y="570" type="line"/>
+      <point x="251" y="690" type="line"/>
+      <point x="141" y="690" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>570</integer>
+            <integer>120</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

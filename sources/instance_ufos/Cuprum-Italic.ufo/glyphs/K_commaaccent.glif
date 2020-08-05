@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kcommaaccent" format="2">
+  <advance width="490"/>
+  <unicode hex="0136"/>
+  <outline>
+    <contour>
+      <point x="70" y="0" type="line"/>
+      <point x="160" y="0" type="line"/>
+      <point x="221" y="350" type="line"/>
+      <point x="375" y="0" type="line"/>
+      <point x="480" y="0" type="line"/>
+      <point x="317" y="355" type="line"/>
+      <point x="583" y="700" type="line"/>
+      <point x="478" y="700" type="line"/>
+      <point x="223" y="360" type="line"/>
+      <point x="283" y="700" type="line"/>
+      <point x="193" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="174" y="-200" type="line"/>
+      <point x="234" y="-200" type="line"/>
+      <point x="291" y="-50" type="line"/>
+      <point x="201" y="-50" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-200</integer>
+            <integer>150</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string></string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>700</integer>
+            <integer>-20</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>0</integer>
+            <integer>21</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>u</string>
+            <string>p</string>
+          </array>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
