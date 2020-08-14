@@ -57,6 +57,19 @@
     <string>Jovanny Lemonad</string>
     <key>openTypeNameManufacturerURL</key>
     <string>http://jovanny.ru</string>
+    <key>openTypeOS2Panose</key>
+    <array>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>8</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
     <key>openTypeOS2Selection</key>
     <array>
       <integer>7</integer>
