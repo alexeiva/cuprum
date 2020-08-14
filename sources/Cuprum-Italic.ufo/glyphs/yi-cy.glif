@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yi-cy" format="2">
-  <advance width="220"/>
+  <advance width="230"/>
   <unicode hex="0457"/>
   <outline>
     <component base="idotless"/>
-    <component base="dieresiscomb"/>
+    <component base="dieresiscomb" xOffset="-20"/>
   </outline>
   <lib>
     <dict>
