@@ -1044,6 +1044,8 @@
     <string>registered.glif</string>
     <key>ring</key>
     <string>ring.glif</string>
+    <key>ringcomb</key>
+    <string>ringcomb.glif</string>
     <key>ruble</key>
     <string>ruble.glif</string>
     <key>s</key>
