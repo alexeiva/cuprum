@@ -3,40 +3,8 @@
   <advance width="480"/>
   <unicode hex="00F3"/>
   <outline>
-    <contour>
-      <point x="238" y="-10" type="curve"/>
-      <point x="368" y="-10"/>
-      <point x="450" y="60"/>
-      <point x="484" y="250" type="curve"/>
-      <point x="517" y="440"/>
-      <point x="459" y="510"/>
-      <point x="329" y="510" type="curve"/>
-      <point x="199" y="510"/>
-      <point x="117" y="440"/>
-      <point x="84" y="250" type="curve" smooth="yes"/>
-      <point x="50" y="60"/>
-      <point x="108" y="-10"/>
-    </contour>
-    <contour>
-      <point x="249" y="55" type="curve"/>
-      <point x="204" y="55"/>
-      <point x="176" y="95"/>
-      <point x="204" y="250" type="curve" smooth="yes"/>
-      <point x="231" y="405"/>
-      <point x="273" y="445"/>
-      <point x="318" y="445" type="curve"/>
-      <point x="363" y="445"/>
-      <point x="391" y="405"/>
-      <point x="364" y="250" type="curve"/>
-      <point x="336" y="95"/>
-      <point x="294" y="55"/>
-    </contour>
-    <contour>
-      <point x="293" y="560" type="line"/>
-      <point x="368" y="560" type="line"/>
-      <point x="466" y="690" type="line"/>
-      <point x="351" y="690" type="line"/>
-    </contour>
+    <component base="o"/>
+    <component base="acutecomb" xOffset="180"/>
   </outline>
   <lib>
     <dict>

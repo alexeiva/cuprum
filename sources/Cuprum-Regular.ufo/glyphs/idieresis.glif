@@ -3,24 +3,8 @@
   <advance width="230"/>
   <unicode hex="00EF"/>
   <outline>
-    <contour>
-      <point x="70" y="0" type="line"/>
-      <point x="160" y="0" type="line"/>
-      <point x="160" y="500" type="line"/>
-      <point x="70" y="500" type="line"/>
-    </contour>
-    <contour>
-      <point x="-10" y="570" type="line"/>
-      <point x="80" y="570" type="line"/>
-      <point x="80" y="680" type="line"/>
-      <point x="-10" y="680" type="line"/>
-    </contour>
-    <contour>
-      <point x="150" y="570" type="line"/>
-      <point x="240" y="570" type="line"/>
-      <point x="240" y="680" type="line"/>
-      <point x="150" y="680" type="line"/>
-    </contour>
+    <component base="idotless"/>
+    <component base="dieresiscomb" xOffset="-30"/>
   </outline>
   <lib>
     <dict>

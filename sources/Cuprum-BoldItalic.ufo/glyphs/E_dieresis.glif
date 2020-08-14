@@ -3,31 +3,7 @@
   <advance width="475"/>
   <unicode hex="00CB"/>
   <outline>
-    <contour>
-      <point x="70" y="0" type="line"/>
-      <point x="435" y="0" type="line"/>
-      <point x="449" y="80" type="line"/>
-      <point x="204" y="80" type="line"/>
-      <point x="247" y="325" type="line"/>
-      <point x="462" y="325" type="line"/>
-      <point x="476" y="405" type="line"/>
-      <point x="261" y="405" type="line"/>
-      <point x="299" y="620" type="line"/>
-      <point x="544" y="620" type="line"/>
-      <point x="558" y="700" type="line"/>
-      <point x="193" y="700" type="line"/>
-    </contour>
-    <contour>
-      <point x="249" y="760" type="line"/>
-      <point x="359" y="760" type="line"/>
-      <point x="380" y="880" type="line"/>
-      <point x="270" y="880" type="line"/>
-    </contour>
-    <contour>
-      <point x="409" y="760" type="line"/>
-      <point x="519" y="760" type="line"/>
-      <point x="540" y="880" type="line"/>
-      <point x="430" y="880" type="line"/>
-    </contour>
+    <component base="E"/>
+    <component base="dieresiscomb" xOffset="139" yOffset="200"/>
   </outline>
 </glyph>

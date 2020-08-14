@@ -3,17 +3,7 @@
   <advance width="230"/>
   <unicode hex="012B"/>
   <outline>
-    <contour>
-      <point x="70" y="0" type="line"/>
-      <point x="160" y="0" type="line"/>
-      <point x="248" y="500" type="line"/>
-      <point x="158" y="500" type="line"/>
-    </contour>
-    <contour>
-      <point x="102" y="580" type="line"/>
-      <point x="332" y="580" type="line"/>
-      <point x="342" y="640" type="line"/>
-      <point x="112" y="640" type="line"/>
-    </contour>
+    <component base="idotless"/>
+    <component base="macroncomb" xOffset="-10"/>
   </outline>
 </glyph>
