@@ -2,6 +2,9 @@
 <glyph name="schwa-cy" format="2">
   <advance width="440"/>
   <unicode hex="04D9"/>
+  <anchor x="227" y="0" name="bottom"/>
+  <anchor x="239" y="0" name="ogonek"/>
+  <anchor x="322" y="500" name="top"/>
   <outline>
     <contour>
       <point x="218" y="-10" type="curve" smooth="yes"/>
