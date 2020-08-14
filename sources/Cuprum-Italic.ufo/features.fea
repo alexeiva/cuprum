@@ -1,5 +1,9 @@
 # automatic
 @Uppercase = [ A Aacute Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla D Eth E Eacute Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent H I Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lcommaaccent Lslash M N Nacute Ncommaaccent Ntilde O Oacute Ocircumflex Odieresis Ograve Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla T U Uacute Ucircumflex Udieresis Ugrave Umacron Uogonek V W X Y Yacute Ydieresis Z Zacute Zcaron Zdotaccent A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kabashkir-cy Endescender-cy Pedescender-cy Esdescender-cy Ustrait-cy Ustraitstroke-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Palochka-cy Zhebreve-cy Chekhakassian-cy Abreve-cy Adieresis-cy Iebreve-cy Schwa-cy Zhedieresis-cy Zedieresis-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Qa-cy We-cy ];
+@CombiningTopAccents = [acutecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb tildecomb ringcomb];
+@CombiningNonTopAccents = [cedillacomb ogonekcomb strokeshortcomb];
+@Markscomb = [brevecomb-cy descender-cy verticalbar-cy];
+@MarkscombCase = [brevecomb-cy.case descender-cy.case verticalbar-cy.case];
 
 # Prefix: Languagesystems
 # automatic
@@ -20,14 +24,25 @@ feature case;
 } aalt;
 
 feature ccmp {
-# automatic
+lookup ccmp_softdotted_1 {
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	@dotlessiandj = [idotless jdotless];
+	@iandj =  [i j];
+	@iandjcy = [i-cy je-cy];
+	sub @iandj' @CombiningTopAccents by @dotlessiandj;
+	# sub @iandj' @CombiningNonTopAccents @CombiningTopAccents by @dotlessiandj;
+	sub @iandjcy' @CombiningTopAccents by @dotlessiandj;
+	# sub @iandjcy' @CombiningNonTopAccents @CombiningTopAccents by @dotlessiandj;
+} ccmp_softdotted_1;
+
+lookup ccmp_softdotted_2 {
+	sub iogonek' @CombiningTopAccents by idotless ogonekcomb;
+	sub idotbelow' @CombiningTopAccents by idotless dotbelowcomb;;
+	sub iogonek' @CombiningNonTopAccents @CombiningTopAccents by idotless ogonekcomb;
+	sub idotbelow' @CombiningNonTopAccents @CombiningTopAccents by idotless dotbelowcomb;;
+} ccmp_softdotted_2;
+
 lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb strokeshortcomb];
-	sub [i]' @CombiningTopAccents by [idotless];
-	sub [i]' @CombiningNonTopAccents @CombiningTopAccents by [idotless];
-	@Markscomb = [brevecomb-cy descender-cy verticalbar-cy];
-	@MarkscombCase = [brevecomb-cy.case descender-cy.case verticalbar-cy.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_1;
