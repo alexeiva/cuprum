@@ -2,9 +2,14 @@
 <glyph name="commaaccentcomb" format="2">
   <unicode hex="0326"/>
   <anchor x="66" y="0" name="_bottom"/>
-  <anchor x="9" y="-320" name="bottom"/>
+  <anchor x="29" y="-210" name="bottom"/>
   <outline>
-    <component base="comma" xOffset="-69" yOffset="-200"/>
+    <contour>
+      <point x="-26" y="-210" type="line"/>
+      <point x="49" y="-210" type="line"/>
+      <point x="111" y="-60" type="line"/>
+      <point x="1" y="-60" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

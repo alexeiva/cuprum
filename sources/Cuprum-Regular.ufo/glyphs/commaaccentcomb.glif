@@ -2,14 +2,17 @@
 <glyph name="commaaccentcomb" format="2">
   <unicode hex="0326"/>
   <anchor x="88" y="0" name="_bottom"/>
-  <anchor x="88" y="-285" name="bottom"/>
+  <anchor x="88" y="-210" name="bottom"/>
   <outline>
-    <component base="comma" yOffset="-170"/>
+    <contour>
+      <point x="43" y="-210" type="line"/>
+      <point x="103" y="-210" type="line"/>
+      <point x="133" y="-60" type="line"/>
+      <point x="43" y="-60" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>comma</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>170</integer>
       <key>public.markColor</key>
