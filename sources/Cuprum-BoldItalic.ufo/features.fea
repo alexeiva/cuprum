@@ -26,20 +26,15 @@ feature case;
 feature ccmp {
 lookup ccmp_softdotted_1 {
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
-	@dotlessiandj = [idotless jdotless];
-	@iandj =  [i j];
-	@iandjcy = [i-cy je-cy];
-	sub @iandj' @CombiningTopAccents by @dotlessiandj;
-	# sub @iandj' @CombiningNonTopAccents @CombiningTopAccents by @dotlessiandj;
-	sub @iandjcy' @CombiningTopAccents by @dotlessiandj;
-	# sub @iandjcy' @CombiningNonTopAccents @CombiningTopAccents by @dotlessiandj;
+	@dotless = [idotless jdotless];
+	sub [i j]' @CombiningTopAccents by @dotless;
+	sub [i-cy je-cy]' @CombiningTopAccents by @dotless;
 } ccmp_softdotted_1;
 
 lookup ccmp_softdotted_2 {
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub iogonek' @CombiningTopAccents by idotless ogonekcomb;
 	sub idotbelow' @CombiningTopAccents by idotless dotbelowcomb;;
-	sub iogonek' @CombiningNonTopAccents @CombiningTopAccents by idotless ogonekcomb;
-	sub idotbelow' @CombiningNonTopAccents @CombiningTopAccents by idotless dotbelowcomb;;
 } ccmp_softdotted_2;
 
 lookup ccmp_Other_1 {
