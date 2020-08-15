@@ -11,14 +11,10 @@ rm -rf ../fonts
 
 
 echo "Generating Static fonts"
-mkdir -p ../fonts
-# mkdir -p ../fonts/otf
 mkdir -p ../fonts/ttf
 mkdir -p ../fonts/variable
 fontmake -m Cuprum.designspace -i -o ttf --output-dir ../fonts/ttf/
-fontmake -m Cuprum.designspace -i -o otf --output-dir ../fonts/otf/
 fontmake -m Cuprum-Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
-fontmake -m Cuprum-Italic.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
 fontmake -m Cuprum.designspace -o variable --output-path ../fonts/variable/Cuprum[wght].ttf
