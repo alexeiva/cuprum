@@ -3,8 +3,17 @@
   <advance width="505"/>
   <unicode hex="04CB"/>
   <outline>
+    <contour>
+      <point x="335" y="-150" type="line"/>
+      <point x="350" y="-110"/>
+      <point x="360" y="-60"/>
+      <point x="365" y="0" type="curve"/>
+      <point x="435" y="0" type="line"/>
+      <point x="435" y="70" type="line"/>
+      <point x="280" y="70" type="line"/>
+      <point x="280" y="-150" type="line"/>
+    </contour>
     <component base="Che-cy"/>
-    <component base="descender-cy.case" xScale="-1" xOffset="435"/>
   </outline>
   <lib>
     <dict>
