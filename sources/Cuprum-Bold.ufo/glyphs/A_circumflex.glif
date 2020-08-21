@@ -3,116 +3,11 @@
   <advance width="540"/>
   <unicode hex="00C2"/>
   <outline>
-    <contour>
-      <point x="15" y="0" type="line"/>
-      <point x="140" y="0" type="line"/>
-      <point x="184" y="175" type="line"/>
-      <point x="356" y="175" type="line"/>
-      <point x="400" y="0" type="line"/>
-      <point x="525" y="0" type="line"/>
-      <point x="345" y="700" type="line"/>
-      <point x="195" y="700" type="line"/>
-    </contour>
-    <contour>
-      <point x="200" y="255" type="line"/>
-      <point x="268" y="540" type="line"/>
-      <point x="272" y="540" type="line"/>
-      <point x="339" y="255" type="line"/>
-    </contour>
-    <contour>
-      <point x="138" y="750" type="line"/>
-      <point x="214" y="750" type="line"/>
-      <point x="270" y="820" type="line"/>
-      <point x="326" y="750" type="line"/>
-      <point x="403" y="750" type="line"/>
-      <point x="323" y="880" type="line"/>
-      <point x="218" y="880" type="line"/>
-    </contour>
+    <component base="A"/>
+    <component base="circumflexcomb" xOffset="117" yOffset="200"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>175</integer>
-            <integer>80</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string></string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>880</integer>
-            <integer>-20</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>d</string>
-            <string>o</string>
-            <string>w</string>
-            <string>n</string>
-          </array>
-          <key>type</key>
-          <string>TopGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>0</integer>
-            <integer>21</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>u</string>
-            <string>p</string>
-          </array>
-          <key>type</key>
-          <string>BottomGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>700</integer>
-            <integer>-20</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>d</string>
-            <string>o</string>
-            <string>w</string>
-            <string>n</string>
-          </array>
-          <key>type</key>
-          <string>TopGhost</string>
-        </dict>
-      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

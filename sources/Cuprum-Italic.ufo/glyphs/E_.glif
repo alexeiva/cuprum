@@ -3,7 +3,7 @@
   <advance width="450"/>
   <unicode hex="0045"/>
   <anchor x="240" y="0" name="bottom"/>
-  <anchor x="361" y="10" name="ogonek"/>
+  <anchor x="349" y="0" name="ogonek"/>
   <anchor x="370" y="700" name="top"/>
   <anchor x="99" y="700" name="topleft"/>
   <outline>
@@ -22,56 +22,4 @@
       <point x="193" y="700" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>0</integer>
-            <integer>70</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string></string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>330</integer>
-            <integer>70</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string></string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>630</integer>
-            <integer>70</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string></string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

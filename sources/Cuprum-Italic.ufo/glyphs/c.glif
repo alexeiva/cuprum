@@ -2,6 +2,8 @@
 <glyph name="c" format="2">
   <advance width="375"/>
   <unicode hex="0063"/>
+  <anchor x="205" y="0" name="bottom"/>
+  <anchor x="325" y="500" name="top"/>
   <outline>
     <contour>
       <point x="238" y="-10" type="curve" smooth="yes"/>
@@ -28,41 +30,4 @@
       <point x="103" y="-10"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>-10</integer>
-            <integer>60</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string></string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>450</integer>
-            <integer>60</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string></string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

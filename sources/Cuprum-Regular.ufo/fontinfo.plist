@@ -7,7 +7,7 @@
     <key>capHeight</key>
     <integer>700</integer>
     <key>copyright</key>
-    <string>Copyright 2010 The Cuprum Project Authors (lemonad@jovanny.ru), with Reserved Font Name "Cuprum".</string>
+    <string>Copyright 2020 The Cuprum Project Authors (https://github.com/alexeiva/cuprum), with Reserved Font Name "Cuprum".</string>
     <key>descender</key>
     <integer>-200</integer>
     <key>familyName</key>
@@ -57,6 +57,19 @@
     <string>Jovanny Lemonad</string>
     <key>openTypeNameManufacturerURL</key>
     <string>http://jovanny.ru</string>
+    <key>openTypeOS2Panose</key>
+    <array>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>5</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
     <key>openTypeOS2Selection</key>
     <array>
       <integer>7</integer>
@@ -117,7 +130,7 @@
     <key>unitsPerEm</key>
     <integer>1000</integer>
     <key>versionMajor</key>
-    <integer>2</integer>
+    <integer>3</integer>
     <key>versionMinor</key>
     <integer>0</integer>
     <key>xHeight</key>

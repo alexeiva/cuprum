@@ -618,6 +618,8 @@
     <string>comma.glif</string>
     <key>commaaccentcomb</key>
     <string>commaaccentcomb.glif</string>
+    <key>commaturnedabovecomb</key>
+    <string>commaturnedabovecomb.glif</string>
     <key>copyright</key>
     <string>copyright.glif</string>
     <key>currency</key>
@@ -852,6 +854,8 @@
     <string>j.glif</string>
     <key>jcircumflex</key>
     <string>jcircumflex.glif</string>
+    <key>jdotless</key>
+    <string>jdotless.glif</string>
     <key>je-cy</key>
     <string>je-cy.glif</string>
     <key>k</key>
@@ -892,6 +896,8 @@
     <string>macroncomb.glif</string>
     <key>micro</key>
     <string>micro.glif</string>
+    <key>minus</key>
+    <string>minus.glif</string>
     <key>multiply</key>
     <string>multiply.glif</string>
     <key>n</key>
@@ -1038,6 +1044,8 @@
     <string>registered.glif</string>
     <key>ring</key>
     <string>ring.glif</string>
+    <key>ringcomb</key>
+    <string>ringcomb.glif</string>
     <key>ruble</key>
     <string>ruble.glif</string>
     <key>s</key>

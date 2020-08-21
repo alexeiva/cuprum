@@ -1,108 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="icircumflex" format="2">
-  <advance width="215"/>
+  <advance width="230"/>
   <unicode hex="00EE"/>
   <outline>
-    <contour>
-      <point x="63" y="0" type="line"/>
-      <point x="153" y="0" type="line"/>
-      <point x="153" y="500" type="line"/>
-      <point x="63" y="500" type="line"/>
-    </contour>
-    <contour>
-      <point x="-15" y="550" type="line"/>
-      <point x="45" y="550" type="line"/>
-      <point x="107" y="624" type="line"/>
-      <point x="170" y="550" type="line"/>
-      <point x="230" y="550" type="line"/>
-      <point x="155" y="680" type="line"/>
-      <point x="60" y="680" type="line"/>
-    </contour>
+    <component base="idotless"/>
+    <component base="circumflexcomb" xOffset="-28"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>63</integer>
-            <integer>90</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string></string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>0</integer>
-            <integer>21</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>u</string>
-            <string>p</string>
-          </array>
-          <key>type</key>
-          <string>BottomGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>500</integer>
-            <integer>-20</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>d</string>
-            <string>o</string>
-            <string>w</string>
-            <string>n</string>
-          </array>
-          <key>type</key>
-          <string>TopGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>place</key>
-          <array>
-            <integer>680</integer>
-            <integer>-20</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>d</string>
-            <string>o</string>
-            <string>w</string>
-            <string>n</string>
-          </array>
-          <key>type</key>
-          <string>TopGhost</string>
-        </dict>
-      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

@@ -2,8 +2,40 @@
 <glyph name="schwa-cy" format="2">
   <advance width="440"/>
   <unicode hex="04D9"/>
+  <anchor x="220" y="0" name="bottom"/>
+  <anchor x="236" y="0" name="ogonek"/>
+  <anchor x="220" y="500" name="top"/>
   <outline>
-    <component base="e" xScale="-1" yScale="-1" xOffset="440" yOffset="500"/>
+    <contour>
+      <point x="185" y="510" type="curve" smooth="yes"/>
+      <point x="145" y="510"/>
+      <point x="95" y="500"/>
+      <point x="65" y="490" type="curve"/>
+      <point x="65" y="450" type="line"/>
+      <point x="165" y="450" type="line" smooth="yes"/>
+      <point x="265" y="450"/>
+      <point x="305" y="410"/>
+      <point x="305" y="280" type="curve"/>
+      <point x="45" y="280" type="line"/>
+      <point x="45" y="250" type="line"/>
+      <point x="45" y="50"/>
+      <point x="105" y="-10"/>
+      <point x="220" y="-10" type="curve" smooth="yes"/>
+      <point x="335" y="-10"/>
+      <point x="395" y="50"/>
+      <point x="395" y="250" type="curve" smooth="yes"/>
+      <point x="395" y="450"/>
+      <point x="335" y="510"/>
+    </contour>
+    <contour>
+      <point x="305" y="220" type="line"/>
+      <point x="305" y="85"/>
+      <point x="265" y="45"/>
+      <point x="220" y="45" type="curve" smooth="yes"/>
+      <point x="175" y="45"/>
+      <point x="135" y="85"/>
+      <point x="135" y="220" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>

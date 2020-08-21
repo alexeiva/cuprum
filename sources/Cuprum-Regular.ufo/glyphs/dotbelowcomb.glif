@@ -4,7 +4,12 @@
   <anchor x="85" y="0" name="_bottom"/>
   <anchor x="85" y="-156" name="bottom"/>
   <outline>
-    <component base="period" xScale="0.8249" yScale="0.8249" xOffset="15" yOffset="-152"/>
+    <contour>
+      <point x="47.996" y="-156.125" type="line"/>
+      <point x="122.237" y="-156.125" type="line"/>
+      <point x="122.237" y="-65.386" type="line"/>
+      <point x="47.996" y="-65.386" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,15 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaaccentcomb" format="2">
   <unicode hex="0326"/>
-  <anchor x="88" y="0" name="_bottom"/>
-  <anchor x="80" y="-290" name="bottom"/>
+  <anchor x="100" y="0" name="_bottom"/>
+  <anchor x="88" y="-210" name="bottom"/>
   <outline>
-    <component base="comma" yOffset="-170"/>
+    <contour>
+      <point x="45" y="-210" type="line"/>
+      <point x="120" y="-210" type="line"/>
+      <point x="155" y="-60" type="line"/>
+      <point x="45" y="-60" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>comma</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>195</integer>
       <key>public.markColor</key>

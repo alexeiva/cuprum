@@ -2,6 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>com.github.googlei18n.ufo2ft.filters</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>propagateAnchors</string>
+        <key>pre</key>
+        <true/>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>flattenComponents</string>
+      </dict>
+    </array>
     <key>com.schriftgestaltung.appVersion</key>
     <string>948</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -1017,6 +1030,8 @@
       <string>uni03020303</string>
       <key>commaaccentcomb</key>
       <string>uni0326</string>
+      <key>commaturnedabovecomb</key>
+      <string>uni0312</string>
       <key>de-cy</key>
       <string>uni0434</string>
       <key>descender-cy</key>
@@ -1139,6 +1154,8 @@
       <string>uni044E</string>
       <key>izhitsa-cy</key>
       <string>uni0475</string>
+      <key>jdotless</key>
+      <string>uni0237</string>
       <key>je-cy</key>
       <string>uni0458</string>
       <key>ka-cy</key>
@@ -1213,6 +1230,8 @@
       <string>uni051B</string>
       <key>rcommaaccent</key>
       <string>uni0157</string>
+      <key>ringcomb</key>
+      <string>uni030A</string>
       <key>ruble</key>
       <string>uni20BD</string>
       <key>schwa-cy</key>

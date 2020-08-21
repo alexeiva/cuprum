@@ -547,6 +547,7 @@
     <array>
       <string>j</string>
       <string>jcircumflex</string>
+      <string>jdotless</string>
     </array>
     <key>public.kern1.k</key>
     <array>
@@ -1509,6 +1510,7 @@
     <array>
       <string>j</string>
       <string>jcircumflex</string>
+      <string>jdotless</string>
     </array>
     <key>public.kern2.macron</key>
     <array>
