@@ -13,7 +13,18 @@
     <key>familyName</key>
     <string>Cuprum</string>
     <key>guidelines</key>
-    <array/>
+    <array>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>identifier</key>
+        <string>n6RmkAgtHq</string>
+        <key>x</key>
+        <integer>203</integer>
+        <key>y</key>
+        <integer>597</integer>
+      </dict>
+    </array>
     <key>italicAngle</key>
     <integer>-10</integer>
     <key>openTypeHeadCreated</key>

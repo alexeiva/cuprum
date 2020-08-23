@@ -2,7 +2,6 @@
 <glyph name="Kaverticalstroke-cy" format="2">
   <advance width="560"/>
   <unicode hex="049C"/>
-  <anchor x="306" y="370" name="_center"/>
   <outline>
     <contour>
       <point x="484" y="-10" type="curve" smooth="yes"/>

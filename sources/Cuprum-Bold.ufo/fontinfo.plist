@@ -34,6 +34,16 @@
         <key>y</key>
         <integer>690</integer>
       </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>identifier</key>
+        <string>y5TugRff6y</string>
+        <key>x</key>
+        <integer>-31</integer>
+        <key>y</key>
+        <integer>785</integer>
+      </dict>
     </array>
     <key>italicAngle</key>
     <integer>0</integer>

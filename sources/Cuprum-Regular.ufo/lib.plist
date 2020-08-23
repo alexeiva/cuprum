@@ -57,6 +57,10 @@
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>
     <integer>100</integer>
+    <key>com.typemytype.robofont.guideline.magnetic.ZihW1CTgm2</key>
+    <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.showMeasurements.ZihW1CTgm2</key>
+    <false/>
     <key>com.typemytype.robofont.segmentType</key>
     <string>curve</string>
     <key>com.typemytype.robofont.smartSets.uniqueKey</key>
@@ -671,6 +675,10 @@
       <string>circumflexcomb_tildecomb</string>
       <string>CR</string>
       <string>NULL</string>
+      <string>jdotless</string>
+      <string>ringcomb</string>
+      <string>commaturnedabovecomb</string>
+      <string>minus</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
