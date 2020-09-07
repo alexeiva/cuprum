@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ustraitstroke-cy" format="2">
+  <advance width="480"/>
+  <unicode hex="04B0"/>
+  <anchor x="278" y="220" name="center"/>
+  <outline>
+    <contour>
+      <point x="179" y="0" type="line"/>
+      <point x="299" y="0" type="line"/>
+      <point x="336" y="210" type="line"/>
+      <point x="598" y="700" type="line"/>
+      <point x="473" y="700" type="line"/>
+      <point x="303" y="359" type="line"/>
+      <point x="253" y="700" type="line"/>
+      <point x="128" y="700" type="line"/>
+      <point x="216" y="210" type="line"/>
+    </contour>
+    <contour>
+      <point x="117" y="183" type="line"/>
+      <point x="312" y="183" type="line"/>
+      <point x="347" y="183"/>
+      <point x="398" y="193"/>
+      <point x="430" y="203" type="curve"/>
+      <point x="440" y="257" type="line"/>
+      <point x="130" y="257" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Y</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Y</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="descender-cy.case" format="2">
+  <advance width="235"/>
+  <guideline x="60" y="80" angle="0"/>
+  <guideline x="0" y="390" angle="90"/>
+  <anchor x="0" y="0" name="_bottomright"/>
+  <outline>
+    <contour>
+      <point x="110" y="-150" type="curve"/>
+      <point x="185" y="-150" type="line"/>
+      <point x="185" y="80" type="line"/>
+      <point x="0" y="80" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="70" y="0" type="line"/>
+      <point x="75" y="-60"/>
+      <point x="90" y="-110"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

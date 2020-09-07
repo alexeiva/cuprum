@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tse-cy" format="2">
+  <advance width="490"/>
+  <unicode hex="0446"/>
+  <outline>
+    <contour>
+      <point x="410" y="-145" type="curve"/>
+      <point x="465" y="-145" type="line"/>
+      <point x="465" y="65" type="line"/>
+      <point x="405" y="65" type="line"/>
+      <point x="405" y="500" type="line"/>
+      <point x="315" y="500" type="line"/>
+      <point x="315" y="65" type="line"/>
+      <point x="155" y="65" type="line"/>
+      <point x="155" y="500" type="line"/>
+      <point x="65" y="500" type="line"/>
+      <point x="65" y="0" type="line"/>
+      <point x="380" y="0" type="line"/>
+      <point x="385" y="-50"/>
+      <point x="395" y="-105"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

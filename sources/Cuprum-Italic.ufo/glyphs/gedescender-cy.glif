@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gedescender-cy" format="2">
+  <advance width="365"/>
+  <unicode hex="04F7"/>
+  <anchor x="34" y="0" name="bottomright"/>
+  <anchor x="165" y="250" name="center"/>
+  <anchor x="282" y="500" name="top"/>
+  <outline>
+    <contour>
+      <point x="34" y="0" type="line"/>
+      <point x="124" y="0" type="line"/>
+      <point x="200" y="435" type="line"/>
+      <point x="400" y="435" type="line"/>
+      <point x="412" y="500" type="line"/>
+      <point x="122" y="500" type="line"/>
+    </contour>
+    <contour>
+      <point x="103" y="-145" type="curve"/>
+      <point x="158" y="-145" type="line"/>
+      <point x="195" y="65" type="line"/>
+      <point x="45" y="65" type="line"/>
+      <point x="34" y="0" type="line"/>
+      <point x="99" y="0" type="line"/>
+      <point x="95" y="-50"/>
+      <point x="95" y="-105"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

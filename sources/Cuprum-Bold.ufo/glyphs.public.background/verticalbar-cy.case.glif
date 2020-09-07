@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticalbar-cy.case" format="2">
+  <outline>
+    <contour>
+      <point x="199" y="445" type="line"/>
+      <point x="199" y="175" type="line"/>
+      <point x="243" y="175" type="line"/>
+      <point x="243" y="445" type="line"/>
+    </contour>
+    <component base="Che-cy" xOffset="-35"/>
+  </outline>
+</glyph>

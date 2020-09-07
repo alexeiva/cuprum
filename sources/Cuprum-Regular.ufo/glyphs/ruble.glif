@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ruble" format="2">
+  <advance width="540"/>
+  <unicode hex="20BD"/>
+  <guideline x="210" y="378" angle="90"/>
+  <outline>
+    <contour>
+      <point x="120" y="0" type="line"/>
+      <point x="210" y="0" type="line"/>
+      <point x="210" y="295" type="line"/>
+      <point x="235" y="290"/>
+      <point x="280" y="285"/>
+      <point x="310" y="285" type="curve" smooth="yes"/>
+      <point x="440" y="285"/>
+      <point x="500" y="336"/>
+      <point x="500" y="500" type="curve" smooth="yes"/>
+      <point x="500" y="660"/>
+      <point x="440" y="710"/>
+      <point x="280" y="710" type="curve" smooth="yes"/>
+      <point x="220" y="710"/>
+      <point x="170" y="705"/>
+      <point x="120" y="690" type="curve"/>
+    </contour>
+    <contour>
+      <point x="30" y="161" type="line"/>
+      <point x="360" y="161" type="line"/>
+      <point x="360" y="226" type="line"/>
+      <point x="30" y="226" type="line"/>
+    </contour>
+    <contour>
+      <point x="30" y="289" type="line"/>
+      <point x="210" y="289" type="line"/>
+      <point x="210" y="354" type="line"/>
+      <point x="30" y="354" type="line"/>
+    </contour>
+    <contour>
+      <point x="210" y="355" type="line"/>
+      <point x="210" y="645" type="line"/>
+      <point x="280" y="645" type="line" smooth="yes"/>
+      <point x="370" y="645"/>
+      <point x="410" y="614"/>
+      <point x="410" y="500" type="curve" smooth="yes"/>
+      <point x="410" y="386"/>
+      <point x="370" y="355"/>
+      <point x="280" y="355" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=P-40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>P</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

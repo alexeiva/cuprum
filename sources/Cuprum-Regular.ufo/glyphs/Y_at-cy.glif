@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yat-cy" format="2">
+  <advance width="530"/>
+  <unicode hex="0462"/>
+  <outline>
+    <contour>
+      <point x="25" y="545" type="line"/>
+      <point x="230" y="545" type="line"/>
+      <point x="270" y="545"/>
+      <point x="320" y="555"/>
+      <point x="350" y="565" type="curve"/>
+      <point x="350" y="610" type="line"/>
+      <point x="25" y="610" type="line"/>
+    </contour>
+    <component base="Softsign-cy" xOffset="40"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=H-45</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Softsign-cy</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

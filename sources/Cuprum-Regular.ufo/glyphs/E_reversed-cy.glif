@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ereversed-cy" format="2">
+  <advance width="435"/>
+  <unicode hex="042D"/>
+  <outline>
+    <contour>
+      <point x="165" y="-10" type="curve" smooth="yes"/>
+      <point x="305" y="-10"/>
+      <point x="385" y="70"/>
+      <point x="385" y="350" type="curve" smooth="yes"/>
+      <point x="385" y="630"/>
+      <point x="305" y="710"/>
+      <point x="175" y="710" type="curve" smooth="yes"/>
+      <point x="115" y="710"/>
+      <point x="55" y="700"/>
+      <point x="25" y="690" type="curve"/>
+      <point x="25" y="645" type="line"/>
+      <point x="155" y="645" type="line" smooth="yes"/>
+      <point x="230" y="645"/>
+      <point x="290" y="585"/>
+      <point x="295" y="395" type="curve"/>
+      <point x="85" y="395" type="line"/>
+      <point x="85" y="325" type="line"/>
+      <point x="295" y="325" type="line"/>
+      <point x="290" y="115"/>
+      <point x="235" y="55"/>
+      <point x="145" y="55" type="curve" smooth="yes"/>
+      <point x="15" y="55" type="line"/>
+      <point x="15" y="10" type="line"/>
+      <point x="45" y="0"/>
+      <point x="105" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

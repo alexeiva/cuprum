@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ustraitstroke-cy" format="2">
+  <advance width="470"/>
+  <unicode hex="04B1"/>
+  <outline>
+    <component base="ustrait-cy"/>
+    <component base="strokeshortcomb" xOffset="60" yOffset="-592"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

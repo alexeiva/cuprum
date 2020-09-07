@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="esdescender-cy" format="2">
+  <advance width="395"/>
+  <unicode hex="04AB"/>
+  <outline>
+    <contour>
+      <point x="231" y="-145" type="curve"/>
+      <point x="296" y="-145" type="line"/>
+      <point x="328" y="35" type="line"/>
+      <point x="217" y="0" type="line"/>
+      <point x="211" y="-60"/>
+      <point x="217" y="-110"/>
+    </contour>
+    <component base="es-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

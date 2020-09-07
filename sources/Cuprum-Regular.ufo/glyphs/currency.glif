@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="currency" format="2">
+  <advance width="520"/>
+  <unicode hex="00A4"/>
+  <outline>
+    <contour>
+      <point x="80" y="135" type="line"/>
+      <point x="150" y="200" type="line"/>
+      <point x="175" y="175"/>
+      <point x="220" y="160"/>
+      <point x="259" y="160" type="curve" smooth="yes"/>
+      <point x="300" y="160"/>
+      <point x="345" y="175"/>
+      <point x="370" y="200" type="curve"/>
+      <point x="440" y="135" type="line"/>
+      <point x="490" y="185" type="line"/>
+      <point x="420" y="255" type="line"/>
+      <point x="435" y="280"/>
+      <point x="445" y="315"/>
+      <point x="445" y="350" type="curve"/>
+      <point x="445" y="385"/>
+      <point x="435" y="420"/>
+      <point x="420" y="445" type="curve"/>
+      <point x="490" y="515" type="line"/>
+      <point x="440" y="565" type="line"/>
+      <point x="370" y="500" type="line"/>
+      <point x="345" y="525"/>
+      <point x="300" y="540"/>
+      <point x="259" y="540" type="curve"/>
+      <point x="220" y="540"/>
+      <point x="175" y="525"/>
+      <point x="150" y="500" type="curve"/>
+      <point x="80" y="565" type="line"/>
+      <point x="30" y="515" type="line"/>
+      <point x="100" y="445" type="line"/>
+      <point x="85" y="420"/>
+      <point x="75" y="385"/>
+      <point x="75" y="350" type="curve"/>
+      <point x="75" y="315"/>
+      <point x="85" y="280"/>
+      <point x="100" y="255" type="curve"/>
+      <point x="30" y="185" type="line"/>
+    </contour>
+    <contour>
+      <point x="260" y="225" type="curve" smooth="yes"/>
+      <point x="210" y="225"/>
+      <point x="170" y="265"/>
+      <point x="170" y="350" type="curve"/>
+      <point x="170" y="435"/>
+      <point x="210" y="475"/>
+      <point x="260" y="475" type="curve"/>
+      <point x="310" y="475"/>
+      <point x="350" y="435"/>
+      <point x="350" y="350" type="curve"/>
+      <point x="350" y="265"/>
+      <point x="310" y="225"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Esdescender-cy</key>
+    <string>E_sdescender-cy.glif</string>
+    <key>Ghemiddlehook-cy</key>
+    <string>G_hemiddlehook-cy.glif</string>
+    <key>Ntilde</key>
+    <string>N_tilde.glif</string>
+    <key>Obarred-cy</key>
+    <string>O_barred-cy.glif</string>
+    <key>Schwa-cy</key>
+    <string>S_chwa-cy.glif</string>
+    <key>Zedescender-cy</key>
+    <string>Z_edescender-cy.glif</string>
+    <key>asciitilde</key>
+    <string>asciitilde.glif</string>
+    <key>esdescender-cy</key>
+    <string>esdescender-cy.glif</string>
+    <key>grave</key>
+    <string>grave.glif</string>
+    <key>ntilde</key>
+    <string>ntilde.glif</string>
+    <key>obarred-cy</key>
+    <string>obarred-cy.glif</string>
+    <key>ruble</key>
+    <string>ruble.glif</string>
+    <key>verticalbar-cy</key>
+    <string>verticalbar-cy.glif</string>
+    <key>verticalbar-cy.case</key>
+    <string>verticalbar-cy.case.glif</string>
+    <key>yat-cy</key>
+    <string>yat-cy.glif</string>
+    <key>zedescender-cy</key>
+    <string>zedescender-cy.glif</string>
+  </dict>
+</plist>
